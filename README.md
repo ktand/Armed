@@ -28,3 +28,11 @@
 * SWD header 
 * Stepper configuration using solder jumpers 
 * Einsy Rambo Form Factor (100x71mm) 
+
+## Schematic and PCB Design
+
+Designed using [Kicad 5.0](http://kicad-pcb.org/).
+
+## Compatibilty
+
+Arduino compatbile using the [Arduino Core STM32](https://github.com/stm32duino/Arduino_Core_STM32) and working with the [Marlin 2.0 3D printer firmware](https://github.com/MarlinFirmware/Marlin/tree/bugfix-2.0.x).
