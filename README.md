@@ -1,5 +1,7 @@
 # Armed 3D Printer Controller
 
+![Armed 1.0](Armed.png?raw=true)
+
 ## Features
 
 - 32bit STM32F407VET6
