@@ -1,6 +1,6 @@
 # Armed 3D Printer Controller
 
-![Armed 1.0](Armed.png?raw=true)
+![Armed 1.1](Armed.png?raw=true)
 
 ## Features
 
@@ -17,7 +17,6 @@
 * 3 fan outputs 
 * 3 temperature sensors inputs 
 * 3 endstops inputs 
-* Power loss detection 
 * Filament runout detection 
 * LCD display header 
 * USB support 
@@ -36,3 +35,7 @@ Designed using [Kicad 5.0](http://kicad-pcb.org/).
 ## Compatibilty
 
 Arduino compatbile using the [Arduino Core STM32](https://github.com/stm32duino/Arduino_Core_STM32) and working with the [Marlin 2.0 3D printer firmware](https://github.com/MarlinFirmware/Marlin/tree/bugfix-2.0.x).
+
+## Board configuration and pinout
+
+![Armed 1.1](Armed-back.png?raw=true)
