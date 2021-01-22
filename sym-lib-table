@@ -1,4 +1,3 @@
 (sym_lib_table
-  (lib (name Armed-rescue)(type Legacy)(uri ${KIPRJMOD}/Armed-rescue.lib)(options "")(descr ""))
-  (lib (name object-technologies)(type Legacy)(uri C:/Users/Karl/PCB-designs/KiCad/Libraries/object-technologies.lib)(options "")(descr ""))
+  (lib (name Armed)(type Legacy)(uri ${KIPRJMOD}/Armed.lib)(options "")(descr ""))
 )

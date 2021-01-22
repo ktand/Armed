@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Armed-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -15,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Armed-rescue:Crystal Y1
+L Armed:Crystal Y1
 U 1 1 5A7A9F1B
 P 14600 5600
 F 0 "Y1" V 14600 5750 50  0000 C CNN
@@ -48,7 +47,7 @@ F 3 "" H 14800 5800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Armed-rescue:GND #PWR099
+L Armed:GND #PWR099
 U 1 1 5A7AA16F
 P 15200 5900
 F 0 "#PWR099" H 15200 5650 50  0001 C CNN
@@ -83,7 +82,7 @@ F 3 "" H 1350 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:GND #PWR089
+L Armed:GND #PWR089
 U 1 1 5A7AA38F
 P 1350 7850
 F 0 "#PWR089" H 1350 7600 50  0001 C CNN
@@ -94,7 +93,7 @@ F 3 "" H 1350 7850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:+3V3 #PWR?
+L Armed:+3V3 #PWR?
 U 1 1 5A7AA42C
 P 1350 6900
 AR Path="/5A7AA42C" Ref="#PWR?"  Part="1" 
@@ -107,7 +106,7 @@ F 3 "" H 1350 6900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:+3V3 #PWR?
+L Armed:+3V3 #PWR?
 U 1 1 5A7AA4BF
 P 2150 7900
 AR Path="/5A7AA4BF" Ref="#PWR?"  Part="1" 
@@ -120,7 +119,7 @@ F 3 "" H 2150 7900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:GND #PWR098
+L Armed:GND #PWR098
 U 1 1 5A7AA64F
 P 14000 8550
 F 0 "#PWR098" H 14000 8300 50  0001 C CNN
@@ -131,7 +130,7 @@ F 3 "" H 14000 8550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:GND #PWR091
+L Armed:GND #PWR091
 U 1 1 5A7AB6DD
 P 1950 7900
 F 0 "#PWR091" H 1950 7650 50  0001 C CNN
@@ -194,7 +193,7 @@ F 3 "" H 1600 3550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Armed-rescue:GND #PWR090
+L Armed:GND #PWR090
 U 1 1 5A7BB584
 P 1600 3750
 F 0 "#PWR090" H 1600 3500 50  0001 C CNN
@@ -253,7 +252,7 @@ F 3 "" H 4150 9400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Armed-rescue:GND #PWR094
+L Armed:GND #PWR094
 U 1 1 5A7C0A1A
 P 3700 9700
 F 0 "#PWR094" H 3700 9450 50  0001 C CNN
@@ -264,7 +263,7 @@ F 3 "" H 3700 9700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:+3V3 #PWR?
+L Armed:+3V3 #PWR?
 U 1 1 5A7C0A58
 P 3700 9150
 AR Path="/5A7C0A58" Ref="#PWR?"  Part="1" 
@@ -347,7 +346,7 @@ VDDA
 Text GLabel 7650 9200 2    60   UnSpc ~ 0
 VREF+
 $Comp
-L Armed-rescue:+3V3 #PWR?
+L Armed:+3V3 #PWR?
 U 1 1 5A7C2329
 P 5700 9100
 AR Path="/5A7C2329" Ref="#PWR?"  Part="1" 
@@ -619,7 +618,7 @@ SWDIO
 Text GLabel 2650 3550 0    60   Input ~ 0
 SWCLK
 $Comp
-L Armed-rescue:L L2
+L Armed:L L2
 U 1 1 5A7F3EC5
 P 5950 9200
 F 0 "L2" V 5900 9200 50  0000 C CNN
@@ -664,7 +663,7 @@ Wire Wire Line
 Wire Wire Line
 	1150 9250 1150 9400
 $Comp
-L Armed-rescue:GND #PWR087
+L Armed:GND #PWR087
 U 1 1 5A7F4B15
 P 1300 10200
 F 0 "#PWR087" H 1300 9950 50  0001 C CNN
@@ -753,7 +752,7 @@ Wire Wire Line
 Wire Wire Line
 	13750 8350 13650 8350
 $Comp
-L Armed-rescue:GND #PWR097
+L Armed:GND #PWR097
 U 1 1 5A83B29C
 P 13750 8550
 F 0 "#PWR097" H 13750 8300 50  0001 C CNN
@@ -764,7 +763,7 @@ F 3 "" H 13750 8550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:GND #PWR096
+L Armed:GND #PWR096
 U 1 1 5A83B35A
 P 7150 9700
 F 0 "#PWR096" H 7150 9450 50  0001 C CNN
@@ -796,7 +795,7 @@ TX_PIN
 Text GLabel 2650 4950 0    60   Input ~ 0
 RX_PIN
 $Comp
-L Armed-rescue:PWR_FLAG #FLG08
+L Armed:PWR_FLAG #FLG08
 U 1 1 5A88DC80
 P 7450 10000
 F 0 "#FLG08" H 7450 10075 50  0001 C CNN
@@ -818,7 +817,7 @@ NoConn ~ 2650 3050
 NoConn ~ 13650 5350
 NoConn ~ 2650 6150
 $Comp
-L Armed-rescue:PWR_FLAG #FLG05
+L Armed:PWR_FLAG #FLG05
 U 1 1 5A88ECA8
 P 1150 9250
 F 0 "#FLG05" H 1150 9325 50  0001 C CNN
@@ -829,7 +828,7 @@ F 3 "" H 1150 9250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:PWR_FLAG #FLG06
+L Armed:PWR_FLAG #FLG06
 U 1 1 5A88ED30
 P 1550 9250
 F 0 "#FLG06" H 1550 9325 50  0001 C CNN
@@ -844,7 +843,7 @@ Wire Wire Line
 Connection ~ 1550 9550
 Connection ~ 1150 9400
 $Comp
-L Armed-rescue:PWR_FLAG #FLG07
+L Armed:PWR_FLAG #FLG07
 U 1 1 5A88EF9D
 P 7450 9100
 F 0 "#FLG07" H 7450 9175 50  0001 C CNN
@@ -942,7 +941,7 @@ NoConn ~ 13650 5150
 Text GLabel 13650 2450 2    60   Output ~ 0
 SWO
 $Comp
-L Armed-rescue:STM32F407V(E-G)Tx U5
+L Armed:STM32F407V(E-G)Tx U5
 U 1 1 5A7B3D80
 P 8150 5350
 F 0 "U5" H 8150 5450 50  0000 C CNN

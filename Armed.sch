@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Armed-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -15,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Armed-rescue:Conn_01x04_Male X-MOT1
+L Armed:Conn_01x04_Male X-MOT1
 U 1 1 5A79F0A0
 P 15500 1450
 F 0 "X-MOT1" V 15450 1400 50  0000 C CNN
@@ -26,7 +25,7 @@ F 3 "" H 15500 1450 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:Conn_01x04_Male Y-MOT1
+L Armed:Conn_01x04_Male Y-MOT1
 U 1 1 5A79F123
 P 15500 3650
 F 0 "Y-MOT1" H 15500 3850 50  0000 C CNN
@@ -37,7 +36,7 @@ F 3 "" H 15500 3650 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:Conn_01x04_Male Z-MOT2
+L Armed:Conn_01x04_Male Z-MOT2
 U 1 1 5A79F151
 P 15500 5900
 F 0 "Z-MOT2" H 15500 6100 50  0000 C CNN
@@ -48,7 +47,7 @@ F 3 "" H 15500 5900 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:Conn_01x04_Male E0-MOT1
+L Armed:Conn_01x04_Male E0-MOT1
 U 1 1 5A79F195
 P 15500 8050
 F 0 "E0-MOT1" H 15500 8250 50  0000 C CNN
@@ -59,7 +58,7 @@ F 3 "" H 15500 8050 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:Conn_01x04_Male E1-MOT1
+L Armed:Conn_01x04_Male E1-MOT1
 U 1 1 5A79F1C8
 P 11350 8100
 F 0 "E1-MOT1" H 11350 8300 50  0000 C CNN
@@ -70,7 +69,7 @@ F 3 "" H 11350 8100 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:Pololu_Breakout_A4988 A1
+L Armed:Pololu_Breakout_A4988 A1
 U 1 1 5A79FF96
 P 9950 8100
 F 0 "A1" H 9850 8850 50  0000 R CNN
@@ -81,7 +80,7 @@ F 3 "" H 10050 7800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:Pololu_Breakout_A4988 A5
+L Armed:Pololu_Breakout_A4988 A5
 U 1 1 5A7A0060
 P 14100 8050
 F 0 "A5" H 14000 8800 50  0000 R CNN
@@ -92,7 +91,7 @@ F 3 "" H 14200 7750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:Pololu_Breakout_A4988 A4
+L Armed:Pololu_Breakout_A4988 A4
 U 1 1 5A7A00A8
 P 14100 5900
 F 0 "A4" H 14000 6650 50  0000 R CNN
@@ -103,7 +102,7 @@ F 3 "" H 14200 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:Pololu_Breakout_A4988 A3
+L Armed:Pololu_Breakout_A4988 A3
 U 1 1 5A7A0109
 P 14100 3650
 F 0 "A3" H 14000 4400 50  0000 R CNN
@@ -114,7 +113,7 @@ F 3 "" H 14200 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:Fuse F2
+L Armed:Fuse F2
 U 1 1 5A7A04F2
 P 3200 9050
 F 0 "F2" V 3305 9050 50  0000 C CNN
@@ -125,7 +124,7 @@ F 3 "https://www.digikey.se/product-detail/en/keystone-electronics/3557-2/36-355
 	0    1    1    0   
 $EndComp
 $Comp
-L Armed-rescue:Fuse F1
+L Armed:Fuse F1
 U 1 1 5A7A0663
 P 3200 8850
 F 0 "F1" V 3003 8850 50  0000 C CNN
@@ -136,7 +135,7 @@ F 3 "https://www.digikey.se/product-detail/en/keystone-electronics/3557-2/36-355
 	0    1    1    0   
 $EndComp
 $Comp
-L Armed-rescue:Conn_01x04 J2
+L Armed:Conn_01x04 J2
 U 1 1 5A7A0B60
 P 900 7850
 F 0 "J2" H 900 8050 50  0000 C CNN
@@ -224,7 +223,7 @@ F 3 "" H 2800 1800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Armed-rescue:GND #PWR01
+L Armed:GND #PWR01
 U 1 1 5A7A2B74
 P 1150 8200
 F 0 "#PWR01" H 1150 7950 50  0001 C CNN
@@ -235,7 +234,7 @@ F 3 "" H 1150 8200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:GND #PWR015
+L Armed:GND #PWR015
 U 1 1 5A7A2D83
 P 3450 2250
 F 0 "#PWR015" H 3450 2000 50  0001 C CNN
@@ -265,7 +264,7 @@ F 3 "" H 3450 1200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Armed-rescue:SW_SPST SW1
+L Armed:SW_SPST SW1
 U 1 1 5A7A4542
 P 8550 3900
 F 0 "SW1" H 8550 4025 50  0000 C CNN
@@ -332,7 +331,7 @@ F 3 "" H 3700 2800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Armed-rescue:GND #PWR024
+L Armed:GND #PWR024
 U 1 1 5A7A9C75
 P 4350 3250
 F 0 "#PWR024" H 4350 3000 50  0001 C CNN
@@ -371,7 +370,7 @@ HEATER0-
 Text GLabel 4150 1750 0    60   Input ~ 0
 12V1
 $Comp
-L Armed-rescue:USB_B J6
+L Armed:USB_B J6
 U 1 1 5A7AA762
 P 1200 5550
 F 0 "J6" H 1255 6017 50  0000 C CNN
@@ -404,7 +403,7 @@ F 3 "" H 2800 4400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Armed-rescue:GND #PWR016
+L Armed:GND #PWR016
 U 1 1 5A7AAACE
 P 3450 4850
 F 0 "#PWR016" H 3450 4600 50  0001 C CNN
@@ -589,7 +588,7 @@ $EndComp
 Text GLabel 6900 5200 2    60   Output ~ 0
 TEMP_2_PIN
 $Comp
-L Armed-rescue:Conn_01x03 J3
+L Armed:Conn_01x03 J3
 U 1 1 5A7CA4D2
 P 900 9050
 F 0 "J3" H 900 9250 50  0000 C CNN
@@ -600,7 +599,7 @@ F 3 "" H 900 9050 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:Conn_01x03 J4
+L Armed:Conn_01x03 J4
 U 1 1 5A7CAE00
 P 900 9550
 F 0 "J4" H 900 9750 50  0000 C CNN
@@ -611,7 +610,7 @@ F 3 "" H 900 9550 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:Conn_01x03 J5
+L Armed:Conn_01x03 J5
 U 1 1 5A7CAF04
 P 900 10050
 F 0 "J5" H 900 10250 50  0000 C CNN
@@ -628,7 +627,7 @@ Y_MIN_PIN
 Text GLabel 1950 9950 2    60   Output ~ 0
 Z_MIN_PIN
 $Comp
-L Armed-rescue:GND #PWR02
+L Armed:GND #PWR02
 U 1 1 5A7CD06A
 P 1150 10350
 F 0 "#PWR02" H 1150 10100 50  0001 C CNN
@@ -680,7 +679,7 @@ F0 "Sheet5A7E008D" 60
 F1 "file5A7E008D.sch" 60
 $EndSheet
 $Comp
-L Armed-rescue:Conn_02x05_Odd_Even EXP1
+L Armed:Conn_02x05_Odd_Even EXP1
 U 1 1 5A7E076C
 P 5650 1450
 F 0 "EXP1" H 5700 1750 50  0000 C CNN
@@ -691,7 +690,7 @@ F 3 "" H 5650 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:Conn_02x05_Odd_Even EXP2
+L Armed:Conn_02x05_Odd_Even EXP2
 U 1 1 5A7E0B4D
 P 7900 1450
 F 0 "EXP2" H 7950 1750 50  0000 C CNN
@@ -702,7 +701,7 @@ F 3 "" H 7900 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:+12V #PWR081
+L Armed:+12V #PWR081
 U 1 1 5A7E34C1
 P 14300 2950
 F 0 "#PWR081" H 14300 2800 50  0001 C CNN
@@ -713,7 +712,7 @@ F 3 "" H 14300 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:+12V #PWR079
+L Armed:+12V #PWR079
 U 1 1 5A7E3A9A
 P 14300 750
 F 0 "#PWR079" H 14300 600 50  0001 C CNN
@@ -724,7 +723,7 @@ F 3 "" H 14300 750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:+12V #PWR083
+L Armed:+12V #PWR083
 U 1 1 5A7E49F0
 P 14300 5200
 F 0 "#PWR083" H 14300 5050 50  0001 C CNN
@@ -735,7 +734,7 @@ F 3 "" H 14300 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:+12V #PWR085
+L Armed:+12V #PWR085
 U 1 1 5A7E5484
 P 14300 7350
 F 0 "#PWR085" H 14300 7200 50  0001 C CNN
@@ -746,7 +745,7 @@ F 3 "" H 14300 7350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:+12V #PWR060
+L Armed:+12V #PWR060
 U 1 1 5A7E59FF
 P 10150 7400
 F 0 "#PWR060" H 10150 7250 50  0001 C CNN
@@ -757,7 +756,7 @@ F 3 "" H 10150 7400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:GND #PWR061
+L Armed:GND #PWR061
 U 1 1 5A7EC38C
 P 10150 9000
 F 0 "#PWR061" H 10150 8750 50  0001 C CNN
@@ -768,7 +767,7 @@ F 3 "" H 10150 9000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:GND #PWR086
+L Armed:GND #PWR086
 U 1 1 5A7EC49C
 P 14300 8950
 F 0 "#PWR086" H 14300 8700 50  0001 C CNN
@@ -779,7 +778,7 @@ F 3 "" H 14300 8950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:GND #PWR084
+L Armed:GND #PWR084
 U 1 1 5A7ECD94
 P 14300 6800
 F 0 "#PWR084" H 14300 6550 50  0001 C CNN
@@ -790,7 +789,7 @@ F 3 "" H 14300 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:GND #PWR082
+L Armed:GND #PWR082
 U 1 1 5A7ECEA4
 P 14300 4550
 F 0 "#PWR082" H 14300 4300 50  0001 C CNN
@@ -801,7 +800,7 @@ F 3 "" H 14300 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:GND #PWR080
+L Armed:GND #PWR080
 U 1 1 5A7ED7DC
 P 14300 2350
 F 0 "#PWR080" H 14300 2100 50  0001 C CNN
@@ -812,7 +811,7 @@ F 3 "" H 14300 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:GND #PWR027
+L Armed:GND #PWR027
 U 1 1 5A7F5A59
 P 5400 1850
 F 0 "#PWR027" H 5400 1600 50  0001 C CNN
@@ -823,7 +822,7 @@ F 3 "" H 5400 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:+5V #PWR037
+L Armed:+5V #PWR037
 U 1 1 5A7F5B1B
 P 6700 1150
 F 0 "#PWR037" H 6700 1000 50  0001 C CNN
@@ -834,7 +833,7 @@ F 3 "" H 6700 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:GND #PWR042
+L Armed:GND #PWR042
 U 1 1 5A7F680A
 P 7700 1850
 F 0 "#PWR042" H 7700 1600 50  0001 C CNN
@@ -845,7 +844,7 @@ F 3 "" H 7700 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:Conn_01x06 J1
+L Armed:Conn_01x06 J1
 U 1 1 5A7B6FF1
 P 900 6850
 F 0 "J1" H 900 7150 50  0000 C CNN
@@ -904,7 +903,7 @@ USB_DM
 Text GLabel 1650 5550 2    60   BiDi ~ 0
 USB_DP
 $Comp
-L Armed-rescue:GND #PWR03
+L Armed:GND #PWR03
 U 1 1 5A7BCB59
 P 1200 6050
 F 0 "#PWR03" H 1200 5800 50  0001 C CNN
@@ -915,7 +914,7 @@ F 3 "" H 1200 6050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:+5V #PWR010
+L Armed:+5V #PWR010
 U 1 1 5A7BDA7F
 P 2350 5350
 F 0 "#PWR010" H 2350 5200 50  0001 C CNN
@@ -926,7 +925,7 @@ F 3 "" H 2350 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:BSH105 TR4
+L Armed:BSH105 TR4
 U 1 1 5A7B6395
 P 6550 10400
 F 0 "TR4" H 6453 10650 70  0000 C CNN
@@ -937,7 +936,7 @@ F 3 "" H 6550 10400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:BSH105 TR5
+L Armed:BSH105 TR5
 U 1 1 5A7B6870
 P 7950 10400
 F 0 "TR5" H 7853 10650 70  0000 C CNN
@@ -948,7 +947,7 @@ F 3 "" H 7950 10400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:BSH105 TR6
+L Armed:BSH105 TR6
 U 1 1 5A7B69D3
 P 9200 10400
 F 0 "TR6" H 9103 10650 70  0000 C CNN
@@ -959,7 +958,7 @@ F 3 "" H 9200 10400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:D D6
+L Armed:D D6
 U 1 1 5A7B6D92
 P 6700 9800
 F 0 "D6" V 6654 9879 50  0000 L CNN
@@ -970,7 +969,7 @@ F 3 "" H 6700 9800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Armed-rescue:D D10
+L Armed:D D10
 U 1 1 5A7B6FBF
 P 8100 9800
 F 0 "D10" V 8054 9879 50  0000 L CNN
@@ -981,7 +980,7 @@ F 3 "" H 8100 9800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Armed-rescue:D D11
+L Armed:D D11
 U 1 1 5A7B7105
 P 9350 9800
 F 0 "D11" V 9304 9879 50  0000 L CNN
@@ -1031,7 +1030,7 @@ Text GLabel 7950 9650 0    60   Input ~ 0
 Text GLabel 9200 9650 0    60   Input ~ 0
 12V1
 $Comp
-L Armed-rescue:GND #PWR038
+L Armed:GND #PWR038
 U 1 1 5A7BA2F7
 P 6700 10850
 F 0 "#PWR038" H 6700 10600 50  0001 C CNN
@@ -1042,7 +1041,7 @@ F 3 "" H 6700 10850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:GND #PWR045
+L Armed:GND #PWR045
 U 1 1 5A7BA422
 P 8100 10850
 F 0 "#PWR045" H 8100 10600 50  0001 C CNN
@@ -1053,7 +1052,7 @@ F 3 "" H 8100 10850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:GND #PWR054
+L Armed:GND #PWR054
 U 1 1 5A7BA54D
 P 9350 10850
 F 0 "#PWR054" H 9350 10600 50  0001 C CNN
@@ -1070,7 +1069,7 @@ FAN1_PIN
 Text GLabel 8700 10400 0    60   Input ~ 0
 FAN2_PIN
 $Comp
-L Armed-rescue:+3V3 #PWR014
+L Armed:+3V3 #PWR014
 U 1 1 5A7C1D13
 P 3550 5250
 F 0 "#PWR014" H 3550 5100 50  0001 C CNN
@@ -1096,7 +1095,7 @@ F 3 "" H 8050 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:GND #PWR049
+L Armed:GND #PWR049
 U 1 1 5A7C583E
 P 8050 5500
 F 0 "#PWR049" H 8050 5250 50  0001 C CNN
@@ -1111,7 +1110,7 @@ SCL
 Text GLabel 9650 5050 2    60   BiDi ~ 0
 SDA
 $Comp
-L Armed-rescue:IPD036N04L TR3
+L Armed:IPD036N04L TR3
 U 1 1 5A7BC756
 P 4200 2800
 F 0 "TR3" H 4427 2853 70  0000 L CNN
@@ -1122,7 +1121,7 @@ F 3 "" H 4200 2800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:IPD036N04L TR2
+L Armed:IPD036N04L TR2
 U 1 1 5A7BF89F
 P 3300 4400
 F 0 "TR2" H 3527 4453 70  0000 L CNN
@@ -1133,7 +1132,7 @@ F 3 "" H 3300 4400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:IPD036N04L TR1
+L Armed:IPD036N04L TR1
 U 1 1 5A7C7007
 P 3300 1800
 F 0 "TR1" H 3527 1853 70  0000 L CNN
@@ -1144,7 +1143,7 @@ F 3 "" H 3300 1800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:Conn_01x04 J7
+L Armed:Conn_01x04 J7
 U 1 1 5A7D3121
 P 2750 10300
 F 0 "J7" H 2750 10500 50  0000 C CNN
@@ -1157,7 +1156,7 @@ $EndComp
 Text GLabel 3000 10100 2    60   Input ~ 0
 12V1
 $Comp
-L Armed-rescue:+5V #PWR017
+L Armed:+5V #PWR017
 U 1 1 5A7D4394
 P 3350 10000
 F 0 "#PWR017" H 3350 9850 50  0001 C CNN
@@ -1168,7 +1167,7 @@ F 3 "" H 3350 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:GND #PWR013
+L Armed:GND #PWR013
 U 1 1 5A7D520B
 P 3050 10800
 F 0 "#PWR013" H 3050 10550 50  0001 C CNN
@@ -1179,7 +1178,7 @@ F 3 "" H 3050 10800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:+3V3 #PWR025
+L Armed:+3V3 #PWR025
 U 1 1 5A7D6BB1
 P 4700 10000
 F 0 "#PWR025" H 4700 9850 50  0001 C CNN
@@ -1190,7 +1189,7 @@ F 3 "" H 4700 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:GND #PWR021
+L Armed:GND #PWR021
 U 1 1 5A7D6EF8
 P 4250 10800
 F 0 "#PWR021" H 4250 10550 50  0001 C CNN
@@ -1201,7 +1200,7 @@ F 3 "" H 4250 10800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:+5V #PWR018
+L Armed:+5V #PWR018
 U 1 1 5A7E01D1
 P 1150 2550
 F 0 "#PWR018" H 1150 2400 50  0001 C CNN
@@ -1212,7 +1211,7 @@ F 3 "" H 1150 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:GND #PWR019
+L Armed:GND #PWR019
 U 1 1 5A7E1C51
 P 1150 3550
 F 0 "#PWR019" H 1150 3300 50  0001 C CNN
@@ -1223,7 +1222,7 @@ F 3 "" H 1150 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:+3V3 #PWR08
+L Armed:+3V3 #PWR08
 U 1 1 5A7E364E
 P 2000 3900
 F 0 "#PWR08" H 2000 3750 50  0001 C CNN
@@ -1234,7 +1233,7 @@ F 3 "" H 2000 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:+3V3 #PWR09
+L Armed:+3V3 #PWR09
 U 1 1 5A7E5D44
 P 2900 2300
 F 0 "#PWR09" H 2900 2150 50  0001 C CNN
@@ -1245,7 +1244,7 @@ F 3 "" H 2900 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:+3V3 #PWR07
+L Armed:+3V3 #PWR07
 U 1 1 5A7E8999
 P 2000 1300
 F 0 "#PWR07" H 2000 1150 50  0001 C CNN
@@ -1290,7 +1289,7 @@ SD_CS
 Text GLabel 8200 1450 2    60   Input ~ 0
 SPI_MOSI
 $Comp
-L Armed-rescue:+3V3 #PWR075
+L Armed:+3V3 #PWR075
 U 1 1 5A7FFCCD
 P 14100 750
 F 0 "#PWR075" H 14100 600 50  0001 C CNN
@@ -1301,7 +1300,7 @@ F 3 "" H 14100 750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:+3V3 #PWR064
+L Armed:+3V3 #PWR064
 U 1 1 5A7FFFD0
 P 12750 750
 F 0 "#PWR064" H 12750 600 50  0001 C CNN
@@ -1312,7 +1311,7 @@ F 3 "" H 12750 750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:GND #PWR071
+L Armed:GND #PWR071
 U 1 1 5A80274C
 P 13800 2500
 F 0 "#PWR071" H 13800 2250 50  0001 C CNN
@@ -1331,7 +1330,7 @@ SPI_MISO
 Text GLabel 12400 1950 0    60   Input ~ 0
 X_CS_PIN
 $Comp
-L Armed-rescue:+3V3 #PWR076
+L Armed:+3V3 #PWR076
 U 1 1 5A80E088
 P 14100 2950
 F 0 "#PWR076" H 14100 2800 50  0001 C CNN
@@ -1342,7 +1341,7 @@ F 3 "" H 14100 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:+3V3 #PWR077
+L Armed:+3V3 #PWR077
 U 1 1 5A80E8D3
 P 14100 5200
 F 0 "#PWR077" H 14100 5050 50  0001 C CNN
@@ -1353,7 +1352,7 @@ F 3 "" H 14100 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:+3V3 #PWR078
+L Armed:+3V3 #PWR078
 U 1 1 5A80F176
 P 14100 7350
 F 0 "#PWR078" H 14100 7200 50  0001 C CNN
@@ -1364,7 +1363,7 @@ F 3 "" H 14100 7350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:+3V3 #PWR058
+L Armed:+3V3 #PWR058
 U 1 1 5A80F289
 P 9950 7400
 F 0 "#PWR058" H 9950 7250 50  0001 C CNN
@@ -1397,7 +1396,7 @@ F 3 "" H 13500 4450 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Armed-rescue:GND #PWR072
+L Armed:GND #PWR072
 U 1 1 5A81204A
 P 13800 4650
 F 0 "#PWR072" H 13800 4400 50  0001 C CNN
@@ -1447,7 +1446,7 @@ F 3 "" H 13500 6700 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Armed-rescue:GND #PWR073
+L Armed:GND #PWR073
 U 1 1 5A81296D
 P 13800 6900
 F 0 "#PWR073" H 13800 6650 50  0001 C CNN
@@ -1497,7 +1496,7 @@ F 3 "" H 13500 8850 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Armed-rescue:GND #PWR074
+L Armed:GND #PWR074
 U 1 1 5A813207
 P 13800 9050
 F 0 "#PWR074" H 13800 8800 50  0001 C CNN
@@ -1547,7 +1546,7 @@ F 3 "" H 9350 8900 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Armed-rescue:GND #PWR056
+L Armed:GND #PWR056
 U 1 1 5A8133A7
 P 9650 9100
 F 0 "#PWR056" H 9650 8850 50  0001 C CNN
@@ -1580,7 +1579,7 @@ FAN0-
 Text GLabel 8900 3900 2    60   Output ~ 0
 RESET
 $Comp
-L Armed-rescue:GND #PWR047
+L Armed:GND #PWR047
 U 1 1 5A8318F5
 P 8050 4050
 F 0 "#PWR047" H 8050 3800 50  0001 C CNN
@@ -1591,7 +1590,7 @@ F 3 "" H 8050 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:VDDA #PWR031
+L Armed:VDDA #PWR031
 U 1 1 5A837D57
 P 6250 4850
 F 0 "#PWR031" H 6250 4700 50  0001 C CNN
@@ -1602,7 +1601,7 @@ F 3 "" H 6250 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:VDDA #PWR030
+L Armed:VDDA #PWR030
 U 1 1 5A838DC5
 P 6250 4200
 F 0 "#PWR030" H 6250 4050 50  0001 C CNN
@@ -1613,7 +1612,7 @@ F 3 "" H 6250 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:VDDA #PWR029
+L Armed:VDDA #PWR029
 U 1 1 5A838EEA
 P 6250 3550
 F 0 "#PWR029" H 6250 3400 50  0001 C CNN
@@ -1624,7 +1623,7 @@ F 3 "" H 6250 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:Conn_01x02 FAN1
+L Armed:Conn_01x02 FAN1
 U 1 1 5A83CEAA
 P 3150 6700
 F 0 "FAN1" H 3150 6800 50  0000 C CNN
@@ -1635,7 +1634,7 @@ F 3 "" H 3150 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:Conn_01x02 FAN2
+L Armed:Conn_01x02 FAN2
 U 1 1 5A83D68F
 P 3150 7100
 F 0 "FAN2" H 3150 7200 50  0000 C CNN
@@ -1646,7 +1645,7 @@ F 3 "" H 3150 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:Conn_01x02 FAN3
+L Armed:Conn_01x02 FAN3
 U 1 1 5A83D7CF
 P 3150 7500
 F 0 "FAN3" H 3150 7600 50  0000 C CNN
@@ -1665,7 +1664,7 @@ FAN1-
 Text GLabel 2750 7600 0    60   Input ~ 0
 FAN2-
 $Comp
-L Armed-rescue:Conn_01x02 TEMP1
+L Armed:Conn_01x02 TEMP1
 U 1 1 5A843613
 P 5700 4250
 F 0 "TEMP1" H 5700 4350 50  0000 C CNN
@@ -1676,7 +1675,7 @@ F 3 "" H 5700 4250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Armed-rescue:Conn_01x02 TEMP2
+L Armed:Conn_01x02 TEMP2
 U 1 1 5A84412C
 P 5700 4650
 F 0 "TEMP2" H 5700 4750 50  0000 C CNN
@@ -1687,7 +1686,7 @@ F 3 "" H 5700 4650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Armed-rescue:Conn_01x02 TEMP3
+L Armed:Conn_01x02 TEMP3
 U 1 1 5A844274
 P 5700 5050
 F 0 "TEMP3" H 5700 5150 50  0000 C CNN
@@ -1698,7 +1697,7 @@ F 3 "" H 5700 5050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Armed-rescue:Conn_01x04_Male Z-MOT1
+L Armed:Conn_01x04_Male Z-MOT1
 U 1 1 5A84AA54
 P 15500 5400
 F 0 "Z-MOT1" H 15500 5600 50  0000 C CNN
@@ -1711,7 +1710,7 @@ $EndComp
 Text GLabel 1350 6850 2    60   Input ~ 0
 12V1
 $Comp
-L Armed-rescue:+12V #PWR04
+L Armed:+12V #PWR04
 U 1 1 5A858582
 P 1200 6600
 F 0 "#PWR04" H 1200 6450 50  0001 C CNN
@@ -1722,7 +1721,7 @@ F 3 "" H 1200 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:Conn_01x02 FIL_DET1
+L Armed:Conn_01x02 FIL_DET1
 U 1 1 5A7E8BB8
 P 900 10750
 F 0 "FIL_DET1" H 900 10850 50  0000 C CNN
@@ -1733,7 +1732,7 @@ F 3 "" H 900 10750 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:BSH105 TR7
+L Armed:BSH105 TR7
 U 1 1 5A7EC0B9
 P 11000 10400
 F 0 "TR7" H 11228 10453 70  0000 L CNN
@@ -1766,7 +1765,7 @@ F 3 "" H 10550 10400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Armed-rescue:GND #PWR062
+L Armed:GND #PWR062
 U 1 1 5A7EC731
 P 11150 10850
 F 0 "#PWR062" H 11150 10600 50  0001 C CNN
@@ -1781,7 +1780,7 @@ PS_ON_PIN
 Text GLabel 11300 10050 2    60   Output ~ 0
 PS_ON
 $Comp
-L Armed-rescue:Conn_01x03 PS_ON1
+L Armed:Conn_01x03 PS_ON1
 U 1 1 5A7EDBDB
 P 3150 8200
 F 0 "PS_ON1" H 3150 8400 50  0000 C CNN
@@ -1792,7 +1791,7 @@ F 3 "" H 3150 8200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:GND #PWR012
+L Armed:GND #PWR012
 U 1 1 5A7EDD52
 P 2700 8400
 F 0 "#PWR012" H 2700 8150 50  0001 C CNN
@@ -1803,7 +1802,7 @@ F 3 "" H 2700 8400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:+5V #PWR011
+L Armed:+5V #PWR011
 U 1 1 5A7EE467
 P 2700 8050
 F 0 "#PWR011" H 2700 7900 50  0001 C CNN
@@ -1816,7 +1815,7 @@ $EndComp
 Text GLabel 2950 8200 0    60   Input ~ 0
 PS_ON
 $Comp
-L Armed-rescue:B120-E3 D1
+L Armed:B120-E3 D1
 U 1 1 5A7F113E
 P 1800 5350
 F 0 "D1" H 1800 5134 50  0000 C CNN
@@ -1829,7 +1828,7 @@ $EndComp
 Text GLabel 1300 10750 2    60   Output ~ 0
 FILAMENT_PIN
 $Comp
-L Armed-rescue:GND #PWR06
+L Armed:GND #PWR06
 U 1 1 5A7F5D08
 P 1300 10900
 F 0 "#PWR06" H 1300 10650 50  0001 C CNN
@@ -1844,7 +1843,7 @@ Power
 Text Notes 3350 9700 0    60   ~ 0
 Power regulation
 $Comp
-L Armed-rescue:+3V3 #PWR022
+L Armed:+3V3 #PWR022
 U 1 1 5A7EED8E
 P 4200 6750
 F 0 "#PWR022" H 4200 6600 50  0001 C CNN
@@ -1855,7 +1854,7 @@ F 3 "" H 4200 6750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:GND #PWR023
+L Armed:GND #PWR023
 U 1 1 5A7EEEDA
 P 4200 7150
 F 0 "#PWR023" H 4200 6900 50  0001 C CNN
@@ -1870,7 +1869,7 @@ SWDIO
 Text GLabel 4900 7000 2    60   Output ~ 0
 SWCLK
 $Comp
-L Armed-rescue:Conn_02x10_Odd_Even EXP3
+L Armed:Conn_02x10_Odd_Even EXP3
 U 1 1 5A7F61AE
 P 7950 2850
 F 0 "EXP3" H 8000 3350 50  0000 C CNN
@@ -1883,7 +1882,7 @@ $EndComp
 Text GLabel 7750 3250 0    60   Input ~ 0
 12V1
 $Comp
-L Armed-rescue:GND #PWR043
+L Armed:GND #PWR043
 U 1 1 5A7F6E2A
 P 7700 3450
 F 0 "#PWR043" H 7700 3200 50  0001 C CNN
@@ -1894,7 +1893,7 @@ F 3 "" H 7700 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:+5V #PWR051
+L Armed:+5V #PWR051
 U 1 1 5A7F7769
 P 8850 3150
 F 0 "#PWR051" H 8850 3000 50  0001 C CNN
@@ -1905,7 +1904,7 @@ F 3 "" H 8850 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:+3V3 #PWR041
+L Armed:+3V3 #PWR041
 U 1 1 5A7F7A08
 P 7100 3150
 F 0 "#PWR041" H 7100 3000 50  0001 C CNN
@@ -1922,7 +1921,7 @@ SPI_MOSI
 Text GLabel 8250 2450 2    60   Input ~ 0
 SPI_SCK
 $Comp
-L Armed-rescue:GND #PWR046
+L Armed:GND #PWR046
 U 1 1 5A7F9A16
 P 8300 3450
 F 0 "#PWR046" H 8300 3200 50  0001 C CNN
@@ -1955,7 +1954,7 @@ EXT1_PIN
 Text GLabel 8250 2550 2    60   Output ~ 0
 RESET
 $Comp
-L Armed-rescue:+3V3 #PWR067
+L Armed:+3V3 #PWR067
 U 1 1 5A7FE96F
 P 13650 750
 F 0 "#PWR067" H 13650 600 50  0001 C CNN
@@ -1966,7 +1965,7 @@ F 3 "" H 13650 750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:+3V3 #PWR068
+L Armed:+3V3 #PWR068
 U 1 1 5A7FF297
 P 13650 2950
 F 0 "#PWR068" H 13650 2800 50  0001 C CNN
@@ -1977,7 +1976,7 @@ F 3 "" H 13650 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:+3V3 #PWR069
+L Armed:+3V3 #PWR069
 U 1 1 5A7FF981
 P 13650 5200
 F 0 "#PWR069" H 13650 5050 50  0001 C CNN
@@ -1988,7 +1987,7 @@ F 3 "" H 13650 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:+3V3 #PWR070
+L Armed:+3V3 #PWR070
 U 1 1 5A800525
 P 13650 7350
 F 0 "#PWR070" H 13650 7200 50  0001 C CNN
@@ -1999,7 +1998,7 @@ F 3 "" H 13650 7350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:+3V3 #PWR055
+L Armed:+3V3 #PWR055
 U 1 1 5A80097B
 P 9500 7400
 F 0 "#PWR055" H 9500 7250 50  0001 C CNN
@@ -2010,7 +2009,7 @@ F 3 "" H 9500 7400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:GND #PWR053
+L Armed:GND #PWR053
 U 1 1 5A80CAD7
 P 8650 5500
 F 0 "#PWR053" H 8650 5250 50  0001 C CNN
@@ -2034,7 +2033,7 @@ F 3 "" H 7050 8850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Armed-rescue:GND #PWR040
+L Armed:GND #PWR040
 U 1 1 5A802B2C
 P 7050 9000
 F 0 "#PWR040" H 7050 8750 50  0001 C CNN
@@ -2045,7 +2044,7 @@ F 3 "" H 7050 9000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:+3V3 #PWR039
+L Armed:+3V3 #PWR039
 U 1 1 5A802D6C
 P 7050 8400
 F 0 "#PWR039" H 7050 8250 50  0001 C CNN
@@ -2102,7 +2101,7 @@ F 3 "" H 5100 9000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:GND #PWR026
+L Armed:GND #PWR026
 U 1 1 5A807358
 P 4950 9200
 F 0 "#PWR026" H 4950 8950 50  0001 C CNN
@@ -2126,7 +2125,7 @@ F 3 "https://www.elfa.se/en/aluminium-electrolytic-capacitor-100-uf-35-vdc-panas
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:GND #PWR020
+L Armed:GND #PWR020
 U 1 1 5A81F3D3
 P 3950 9200
 F 0 "#PWR020" H 3950 8950 50  0001 C CNN
@@ -2361,7 +2360,7 @@ $EndComp
 Text Notes 7550 9450 0    60   ~ 0
 Fan drivers
 $Comp
-L Armed-rescue:GND #PWR028
+L Armed:GND #PWR028
 U 1 1 5A83B995
 P 5950 5550
 F 0 "#PWR028" H 5950 5300 50  0001 C CNN
@@ -2372,7 +2371,7 @@ F 3 "" H 5950 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:GND #PWR035
+L Armed:GND #PWR035
 U 1 1 5A83C379
 P 6650 5550
 F 0 "#PWR035" H 6650 5300 50  0001 C CNN
@@ -2383,7 +2382,7 @@ F 3 "" H 6650 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:GND #PWR034
+L Armed:GND #PWR034
 U 1 1 5A83C7BB
 P 6650 4900
 F 0 "#PWR034" H 6650 4650 50  0001 C CNN
@@ -2394,7 +2393,7 @@ F 3 "" H 6650 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:GND #PWR033
+L Armed:GND #PWR033
 U 1 1 5A83C964
 P 6650 4250
 F 0 "#PWR033" H 6650 4000 50  0001 C CNN
@@ -2416,7 +2415,7 @@ F 3 "" H 6600 8850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Armed-rescue:GND #PWR032
+L Armed:GND #PWR032
 U 1 1 5A83E386
 P 6600 9000
 F 0 "#PWR032" H 6600 8750 50  0001 C CNN
@@ -3504,7 +3503,7 @@ F 3 "~" H 8400 8500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L object-technologies:24AA02-OT U4
+L Armed:24AA02-OT U4
 U 1 1 5BD18B3B
 P 8650 5150
 F 0 "U4" H 9200 5050 50  0000 R CNN
@@ -3515,7 +3514,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21713M.pdf" H 8650 5150 50 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:+5V #PWR05
+L Armed:+5V #PWR05
 U 1 1 5BD6ECEA
 P 1250 8850
 F 0 "#PWR05" H 1250 8700 50  0001 C CNN
@@ -3593,7 +3592,7 @@ Wire Wire Line
 Wire Wire Line
 	7950 6400 8250 6400
 $Comp
-L Armed-rescue:L L1
+L Armed:L L1
 U 1 1 5BE91DAD
 P 8400 6400
 F 0 "L1" V 8600 6350 50  0000 C CNN
@@ -3661,7 +3660,7 @@ Wire Wire Line
 	6950 6800 6950 7050
 Connection ~ 7550 7050
 $Comp
-L Armed-rescue:GND #PWR036
+L Armed:GND #PWR036
 U 1 1 5C3D57F2
 P 7550 7050
 F 0 "#PWR036" H 7550 6800 50  0001 C CNN
@@ -3708,7 +3707,7 @@ Wire Wire Line
 	6250 6300 6300 6300
 Connection ~ 6950 6300
 $Comp
-L Armed-rescue:+5V #PWR044
+L Armed:+5V #PWR044
 U 1 1 5CAE2864
 P 8950 6000
 F 0 "#PWR044" H 8950 5850 50  0001 C CNN
@@ -3815,7 +3814,7 @@ F 3 "" H 13500 2300 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Armed-rescue:Pololu_Breakout_A4988 A2
+L Armed:Pololu_Breakout_A4988 A2
 U 1 1 5A7A016F
 P 14100 1450
 F 0 "A2" H 14000 2200 50  0000 R CNN
@@ -4083,7 +4082,7 @@ Connection ~ 12900 3250
 Wire Wire Line
 	12900 3250 13700 3250
 $Comp
-L Armed-rescue:+3V3 #PWR065
+L Armed:+3V3 #PWR065
 U 1 1 603D6FC1
 P 12750 2950
 F 0 "#PWR065" H 12750 2800 50  0001 C CNN
@@ -4159,7 +4158,7 @@ Wire Wire Line
 	12750 6150 12750 6500
 Connection ~ 12750 6500
 $Comp
-L Armed-rescue:+3V3 #PWR066
+L Armed:+3V3 #PWR066
 U 1 1 60F95D92
 P 12750 5200
 F 0 "#PWR066" H 12750 5050 50  0001 C CNN
@@ -4256,7 +4255,7 @@ Wire Wire Line
 	12700 8650 12700 8300
 Connection ~ 12700 8650
 $Comp
-L Armed-rescue:+3V3 #PWR063
+L Armed:+3V3 #PWR063
 U 1 1 61BC98BD
 P 12700 7400
 F 0 "#PWR063" H 12700 7250 50  0001 C CNN
@@ -4335,7 +4334,7 @@ Wire Wire Line
 	8600 8700 8600 8350
 Connection ~ 8600 8700
 $Comp
-L Armed-rescue:+3V3 #PWR050
+L Armed:+3V3 #PWR050
 U 1 1 6271BBA7
 P 8600 7400
 F 0 "#PWR050" H 8600 7250 50  0001 C CNN
@@ -4411,7 +4410,7 @@ Wire Wire Line
 Wire Wire Line
 	9350 9100 9650 9100
 $Comp
-L Regulator_Linear:AP2127K-3.3 U2
+L Armed:AP2127K-3.3-Regulator_Linear U2
 U 1 1 5BB733B3
 P 4250 10500
 F 0 "U2" H 4250 10842 50  0000 C CNN
@@ -4491,7 +4490,7 @@ F 3 "~" H 4500 7700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:+3V3 #PWR0100
+L Armed:+3V3 #PWR0100
 U 1 1 5BC6011B
 P 4200 7600
 F 0 "#PWR0100" H 4200 7450 50  0001 C CNN
@@ -4506,7 +4505,7 @@ RX_PIN
 Text GLabel 4800 7800 2    60   Output ~ 0
 TX_PIN
 $Comp
-L Armed-rescue:GND #PWR0101
+L Armed:GND #PWR0101
 U 1 1 5BC60E9D
 P 4200 7850
 F 0 "#PWR0101" H 4200 7600 50  0001 C CNN
@@ -4542,7 +4541,7 @@ F 3 "~" H 10350 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:GND #PWR057
+L Armed:GND #PWR057
 U 1 1 5BD15663
 P 10000 5450
 F 0 "#PWR057" H 10000 5200 50  0001 C CNN
@@ -4574,7 +4573,7 @@ F 3 "" H 8650 4400 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:+3V3 #PWR048
+L Armed:+3V3 #PWR048
 U 1 1 5C10D61F
 P 8350 4400
 F 0 "#PWR048" H 8350 4250 50  0001 C CNN
@@ -4585,7 +4584,7 @@ F 3 "" H 8350 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armed-rescue:+5V #PWR052
+L Armed:+5V #PWR052
 U 1 1 5C10D798
 P 8950 4400
 F 0 "#PWR052" H 8950 4250 50  0001 C CNN
