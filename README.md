@@ -30,7 +30,7 @@
 
 ## Schematic and PCB Design
 
-Designed using [Kicad 5.0](http://kicad-pcb.org/).
+Designed using [Kicad 5.0](http://kicad.org/).
 
 ## Compatibilty
 
